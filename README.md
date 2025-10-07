@@ -21,7 +21,7 @@ doğru/yanlış cevaplarını görebilir ve quiz bitiminde toplam skorunu öğre
 
 | Katman | Teknoloji |
 |--------|------------|
-| Frontend | **React.js (Vite / Create React App)** |
+| Frontend | **React.js ( Create React App)** |
 | Router | **React Router DOM** |
 | Veri | **Open Trivia Database API** |
 | HTTP | **Fetch API** |
@@ -48,6 +48,14 @@ src/
 
 ```
 
+<img width="1492" height="880" alt="Ekran görüntüsü 2025-10-07 223204" src="https://github.com/user-attachments/assets/a8f745d3-c352-4035-b8f8-3eeea65ff604" />
+
+
+<img width="1281" height="481" alt="Ekran görüntüsü 2025-10-07 223222" src="https://github.com/user-attachments/assets/7ae94a3d-5d90-49f8-a63e-e58f1b97d451" />
+
+
+<img width="1122" height="497" alt="Ekran görüntüsü 2025-10-07 223957" src="https://github.com/user-attachments/assets/86a4822a-5d28-4b57-89b0-037e533e3c16" />
+
 
 
 ---
@@ -64,14 +72,6 @@ npm install
 
 # Uygulamayı başlat
 npm start
-
-<img width="1492" height="880" alt="Ekran görüntüsü 2025-10-07 223204" src="https://github.com/user-attachments/assets/a8f745d3-c352-4035-b8f8-3eeea65ff604" />
-
-
-<img width="1281" height="481" alt="Ekran görüntüsü 2025-10-07 223222" src="https://github.com/user-attachments/assets/7ae94a3d-5d90-49f8-a63e-e58f1b97d451" />
-
-
-<img width="1122" height="497" alt="Ekran görüntüsü 2025-10-07 223957" src="https://github.com/user-attachments/assets/86a4822a-5d28-4b57-89b0-037e533e3c16" />
 
 
 
