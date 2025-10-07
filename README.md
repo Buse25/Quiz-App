@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# 🎯 Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React tabanlı interaktif quiz uygulaması.  
+Kullanıcı zorluk seviyesi ve soru sayısını seçerek test çözebilir,  
+doğru/yanlış cevaplarını görebilir ve quiz bitiminde toplam skorunu öğrenir.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Özellikler
 
-### `npm start`
+- 🔹 Open Trivia API üzerinden dinamik soru çekme  
+- 🔹 Doğru / yanlış cevap kontrolü  
+- 🔹 Her soru sonrası otomatik ilerleme  
+- 🔹 Quiz bitiminde sonuç ekranı (doğru–yanlış sayısı + skor)  
+- 🔹 React Router ile sayfa yönlendirmeleri  
+- 🔹 Responsive ve modern arayüz
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Kullanılan Teknolojiler
 
-### `npm test`
+| Katman | Teknoloji |
+|--------|------------|
+| Frontend | **React.js (Vite / Create React App)** |
+| Router | **React Router DOM** |
+| Veri | **Open Trivia Database API** |
+| HTTP | **Fetch API** |
+| Tasarım | **CSS3 (Flex, Grid, hover efektleri)** |
+| State | **React Hooks (useState, useEffect, useMemo)** |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Dosya Yapısı (Özet)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+├── api/
+│ └── api.js # Soru verilerini çeker
+├── component/
+│ └── questionCard/
+│ └── QuestionCard.jsx
+├── pages/
+│ ├── Introduce.jsx # Ana giriş sayfası
+│ └── quiz/Quiz.jsx # Quiz ana akışı
+├── App.js
+└── index.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Kurulum ve Çalıştırma
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Projeyi klonla
+git clone https://github.com/<kullanıcı-adın>/quiz-app.git
+cd quiz-app
 
-## Learn More
+# Bağımlılıkları yükle
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Uygulamayı başlat
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1492" height="880" alt="Ekran görüntüsü 2025-10-07 223204" src="https://github.com/user-attachments/assets/a8f745d3-c352-4035-b8f8-3eeea65ff604" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img width="1281" height="481" alt="Ekran görüntüsü 2025-10-07 223222" src="https://github.com/user-attachments/assets/7ae94a3d-5d90-49f8-a63e-e58f1b97d451" />
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img width="1122" height="497" alt="Ekran görüntüsü 2025-10-07 223957" src="https://github.com/user-attachments/assets/86a4822a-5d28-4b57-89b0-037e533e3c16" />
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
