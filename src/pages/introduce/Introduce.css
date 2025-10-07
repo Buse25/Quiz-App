@@ -1,0 +1,40 @@
+.introduce{
+    background-color: aqua;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.introduce-container{
+    max-width: 900px;
+    width: 100%;
+    background-color: rgb(203, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+}
+.introduce-btn{
+    color: darksalmon;
+    width: 100px;
+    
+}
+.aaaaa{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.aaaaa:hover {
+  box-shadow: none;
+  
+}

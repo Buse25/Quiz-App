@@ -1,0 +1,17 @@
+/* QuestionCard.css */
+.qstc { max-width: 800px; margin: 32px auto; display: grid; gap: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+}
+.qstc-head { font-weight: 600; }
+.answers { display: grid; gap: 12px; }
+.answers button { padding: 12px 16px; border-radius: 10px; border: 1px solid #ddd; cursor: pointer; }
+.answers button:disabled { opacity: .9; cursor: default; }
+.btn-correct { background: #e7f7ec; border-color: #5dbb7c; }
+.btn-wrong { background: #fdeaea; border-color: #e67373; }
+
+.progress { height: 8px; background: #eee; border-radius: 6px; overflow: hidden; }
+.progress .bar { height: 100%; background: #6ea8fe; }
+
+.modal { position: fixed; inset: 0; background: rgba(0,0,0,.4); display: grid; place-items: center; }
+.modal-card { background: #fff; padding: 24px; border-radius: 12px; width: 320px; text-align: center; display: grid; gap: 12px; }
